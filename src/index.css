@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src:url('../src/assets/fonts/ZenDots-Regular.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiFuentePersonalizada2';
+    src: url('../src/assets/fonts/LXGWWenKaiMonoTC-Bold.ttf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bg-custom-image {
+    background-image: url('../src/images/imagen1.jpg');
+    background-size: cover; /* O 'contain', dependiendo de tus necesidades */
+    background-position: center; /* O 'top', 'bottom', etc., según sea necesario */
+    }
